@@ -127,6 +127,15 @@ streamlit run app.py
 - **Model Loss Graphs:** Tracks Generator and Discriminator loss.
 - **Synthetic Data Visualization:** Generates feature samples.
 
+## 📸 Screenshots
+
+### 1️⃣ **Feature Distribution of Generated Data**
+This graph shows how the synthetic data (blue) compares to real cancer data (orange).
+
+![Feature Distribution](./Cancer-Prediction-using-GAN.png)
+
+---
+
 ---
 
 ## 📜 Acknowledgments
