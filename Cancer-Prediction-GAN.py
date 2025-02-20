@@ -90,4 +90,35 @@ if generator:
         )
 
 # Footer
-st.write("🚀 Developed by **Ritik Kumar**")
+# Footer Styling
+footer = """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            background-color: #0E1117;
+            color: white;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #1DA1F2;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+        .footer .name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <div class="footer">
+        🚀 Developed by <span class="name">Ritik Kumar</span> <br/> 
+        <a href="https://www.linkedin.com/in/ritik-kumar-34ab70218/" target="_blank">🔗 LinkedIn</a> | 
+        <a href="https://github.com/RitikRK96" target="_blank">💻 GitHub</a>
+    </div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
